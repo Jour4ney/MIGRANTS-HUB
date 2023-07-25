@@ -26,3 +26,20 @@ Visit the live site at [DNG MIGRANTS HUB](HTTPS://)
   * [Footer](#footer)
 
   * [Future Features](#future-features)
+  * [Technologies Used](#technologies-used)
+*
+  *[Testing](#testing)
+  
+  *[Deployment and Development](#deployment-and-development)
+  *[Deploying the Site](#deploying-the-site)
+  *[Forking theRepository](#forking-the-repository)
+  *[Cloning the Repository](#cloning-the-repository)
+
+  *[Credits](#credits)
+  
+    *[Content](#content)
+
+    *[Code](#content)
+
+    *[Media](#code)
+  
