@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 /* Body background */
-#background{
+body {
     font-family: lato, sans-serif;
     background: black;
     color: white;
@@ -37,8 +37,6 @@ nav {
     color: red !important;
 }
 
-  border: none;
-}
 
 button:hover {
   background: white;
@@ -59,21 +57,24 @@ button:hover {
   flex-direction: column;
 }
 
-}
+/* hero image */
 
-.hero-heading {
+#hero-text {
   font-size: 3rem;
   margin-bottom: 0.3rem;
 }
-.hero-sub-heading {
+#sub-hero-text {
   font-size: 0.9rem;
   opacity: 0.7;
 }
-/* Hero image */
+
 #hero-image {
     height: 600px;
     width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
     background: url('../images/hero-image.webp') no-repeat center center;
+    background-size: cover;
+    position: absolute;
 }
 
 
