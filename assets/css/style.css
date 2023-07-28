@@ -46,10 +46,10 @@ nav {
 
 }
 .items a:hover {
-    color: red;
+    color: #058F8A;
 }
 .active {
-    color: red !important;
+    color: #058F8A !important;
 }
 
 
@@ -129,8 +129,8 @@ button:hover {
   width: fit-content;
 }
 .info p {
-  font-size: 1.5rem;
-  color: #101010;
+  font-size: 1rem;
+  color: white;
 }
 .info h3 {
   font-size: 24px;
