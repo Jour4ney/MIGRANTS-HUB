@@ -61,7 +61,7 @@ button:hover {
 #hero-image {
   height: 45px;
   width: 100%;
-  background-image: url('../images/tired-man.jpg');
+  background-image: url('../images/tired-man.jpg') no repeat center center;
  background-position: relative;
 
 #hero-text {
