@@ -17,6 +17,15 @@ body {
     margin: 2rem auto;
     padding: 0px 2rem;
 }
+#logo {
+  font-weight: 300;
+  color: #daa520;
+  letter-spacing: 2px;
+  margin: 10px 0 0 20px;
+  width: 80%;
+  font-family: "Oswald", "sans-serif";
+  line-height: 60px;
+}
 h1,h4 {
    font-family: Lato, sans-serif;
    text-transform: uppercase;
@@ -46,9 +55,10 @@ nav {
 
 button:hover {
   background: white;
-  outline: 1px solid red;
-  color: red;
+  outline: 1px solid #16DBD4;
+  color: #16DBD4;
   border: none;
+  text-decoration: underline;
 }
 
 .row {
@@ -106,4 +116,23 @@ button:hover {
   float: right;
   background-color: #BD4607;
 }
-
+/* general content */
+.info {
+  text-align: center;
+  padding: 40px 40px 0 40px;
+}
+.info h2 {
+  margin: 0 auto 20px auto;
+  font-size: 35px;
+  border-bottom: 2px solid #FF7A33;
+  padding: 5px 10px 0 10px;
+  width: fit-content;
+}
+.info p {
+  font-size: 1.5rem;
+  color: #101010;
+}
+.info h3 {
+  font-size: 24px;
+  padding: 30px;
+}
