@@ -87,25 +87,3 @@ I created basic wireframes of how I wanted the layout of the site to look on dif
 
 ## Design Choices
 
-### Font
-
-* The font used for the logo and headings is "Lato" with "sans-serif" as secondary font.
-    * This font is slightly elongated, it always brings contrast to a typography combination and it's legibility is good for mobile version content consumers.  
-* The font used in the body is "Oswald" also with "sans-serif" as secondary font.
-    * This font complements the headings and logo and is well defined making it easy to read.
-
-[Back to top](#contents)
-
-
-### Colour Palette
-
-![Picture of the colour pallete used  ](assets/readme-images/colour-pallete.png)
-
-The colour scheme was chosen starting with a shade of brown and then using []() I found colours that compliment it and are suitable for the refugees theme.
-
-* The  is used in the header and footer as well as a few borders and backgrounds on links and buttons.
-* The  works well throughout as a background colour and font colour. 
-* The  is used for font colour throughout creating good contrast. 
-
-
-[Back to top](#contents)
