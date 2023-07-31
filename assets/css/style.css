@@ -94,6 +94,7 @@ button:hover {
   font-size: 30px;
 }
  /* animates zoom effect on loading page code from love running walkthrough */
+ #hero-image 
  animation-name: hero-zoom;
  animation-duration: 5s;
  animation-fill-mode: forwards;
@@ -184,7 +185,7 @@ button:hover {
   font-size: 1.1rem;
   line-height: 1.5;
 }
-/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen)code from w3school */
+/* Fixed icon bar (vertically aligned 50% from the top of the screen)code from w3school */
 .icon-bar {
   position: fixed;
   top: 50%;
@@ -237,3 +238,19 @@ button:hover {
   color:black;
   word-spacing: 4px;
 
+/*-----------------services page-------------------- */
+/* help and advice section */
+.services {
+  position: relative;
+  font-family: 'oswald' sans-serif;
+}
+.text-block-1 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bb5;;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
