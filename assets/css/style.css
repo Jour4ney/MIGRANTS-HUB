@@ -7,7 +7,7 @@
 }
 /* Body background */
 body {
-    font-family: lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     background: black;
     color: white;
 }
@@ -17,14 +17,16 @@ body {
     margin: 2rem auto;
     padding: 0px 2rem;
 }
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
 #logo {
-  font-weight: 300;
-  color: #daa520;
-  letter-spacing: 2px;
-  margin: 10px 0 0 20px;
-  width: 80%;
-  font-family: "Oswald", "sans-serif";
-  line-height: 60px;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
 }
 h1,h4 {
    font-family: Lato, sans-serif;
@@ -43,6 +45,7 @@ nav {
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
+    padding: 0 0.4rem;
 
 }
 .items a:hover {
@@ -75,9 +78,9 @@ button:hover {
 
 /* hero image */
 #hero-image {
-  height: 45px;
+  height: 90vh;
   width: 100%;
-  background-image: url('../images/tired-man.jpg') no repeat center center;
+  background-image: url('../images/hero-image2.webp.') no repeat center center/cover;
  background-position: relative;
 
 #hero-text {
