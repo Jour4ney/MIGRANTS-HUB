@@ -93,22 +93,7 @@ button:hover {
   color: whitesmoke;
   font-size: 30px;
 }
- /* animates zoom effect on loading page code from love running walkthrough */
- #hero-image 
- animation-name: hero-zoom;
- animation-duration: 5s;
- animation-fill-mode: forwards;
-}
 
-/* creates the level of zoom for hero image */
-@keyframes hero-zoom {
- from{
-     transform: scale(1);
- }
- to{
-     transform: scale(1.1);
- }
-}
   .row {
     grid-template-columns: 1fr;
   }
@@ -239,48 +224,18 @@ button:hover {
   word-spacing: 4px;
 
 /*-----------------services page-------------------- */
-/* help and advice section */
-.services {
+
+.banner-card {
   position: relative;
-  font-family: 'oswald' sans-serif;
 }
-.text-block-1 {
+banner-card img {
+  max-width: 100%;
+  height: auto;
+}
+.banner-text {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: #007bb5;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-
+  bottom: 8px;
+  color: #007bb5;
+  padding: 20px;
 }
-.text-block-2 {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  background-color: #007bb5;
-  color: white;
-  padding-right: 20px;
-  padding-left: 20px;
 
-}
-.text-block-3 {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background-color: #007bb5;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-
-}
-.text-block-4 {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  background-color: #007bb5;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-
-}
