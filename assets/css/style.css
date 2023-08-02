@@ -224,18 +224,3 @@ button:hover {
   word-spacing: 4px;
 
 /*-----------------services page-------------------- */
-
-.banner-card {
-  position: relative;
-}
-banner-card img {
-  max-width: 100%;
-  height: auto;
-}
-.banner-text {
-  position: absolute;
-  bottom: 8px;
-  color: #007bb5;
-  padding: 20px;
-}
-
