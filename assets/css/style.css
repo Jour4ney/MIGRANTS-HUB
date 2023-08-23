@@ -52,7 +52,7 @@ nav {
     color: #058F8A;
 }
 .active {
-    color:  #daa520;!important;
+    color:  #daa520;
 }
 
 
@@ -99,7 +99,7 @@ button:hover {
   }
   
 
-}
+
 /* general content */
 .info {
   text-align: center;
